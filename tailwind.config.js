@@ -1,13 +1,11 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        "sans": ["Menlo", "Courier New", ...defaultTheme.fontFamily.sans]
-      }
+    fontFamily: {
+      "body": ["'Red Hat Mono'"],
+      "header": ["'Zilla Slab'"]
     },
+    extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {

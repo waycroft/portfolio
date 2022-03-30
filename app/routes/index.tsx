@@ -1,7 +1,7 @@
 export default function Index() {
   return (
-    <div className="font-mono p-8 border-[32px] border-primary h-screen">
-      <h1 className="text-6xl">Tyler Termini - full stack developer.</h1>
+    <div className="font-body p-8 border-[32px] border-primary h-screen">
+      <h1 className="font-header text-6xl">Tyler Termini - full stack developer.</h1>
       <p className="text-4xl">
         {" "}
         Phasellus vehicula velit ac est consectetur, vitae aliquet neque
