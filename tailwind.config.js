@@ -12,10 +12,10 @@ module.exports = {
     themes: [
       {
         ink: {
-          primary: "#151310",
-          secondary: "#877763",
-          accent: "#F0AF65",
-          neutral: "#F0EBE5",
+          primary: "#F0AF65",
+          secondary: "#F0AF65",
+          accent: "#61564E",
+          neutral: "#151310",
           "base-100": "#F0EBE5",
         },
       },
