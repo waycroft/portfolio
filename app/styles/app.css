@@ -1132,6 +1132,51 @@ html {
   border-bottom-color: hsl(var(--bc) / 20%);
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.border-8 {
+  border-width: 8px;
+}
+
+.border-\[32px\] {
+  border-width: 32px;
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+.p-16 {
+  padding: 4rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
