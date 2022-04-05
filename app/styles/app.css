@@ -535,33 +535,6 @@ html {
   }
 }
 
-.stack {
-  display: inline-grid;
-  place-items: center;
-  align-items: flex-end;
-}
-
-.stack > * {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  transform: translateY(1rem) scale(0.9);
-  z-index: 1;
-  width: 100%;
-  opacity: 0.6;
-}
-
-.stack > *:nth-child(2) {
-  transform: translateY(0.5rem) scale(0.95);
-  z-index: 2;
-  opacity: 0.8;
-}
-
-.stack > *:nth-child(1) {
-  transform: translateY(0) scale(1);
-  z-index: 3;
-  opacity: 1;
-}
-
 .swap {
   position: relative;
   display: inline-grid;
@@ -744,11 +717,6 @@ html {
   border-width: 32px;
 }
 
-.border-primary {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--p) / var(--tw-border-opacity));
-}
-
 .border-neutral {
   --tw-border-opacity: 1;
   border-color: hsl(var(--n) / var(--tw-border-opacity));
@@ -758,12 +726,12 @@ html {
   padding: 2rem;
 }
 
-.font-header {
-  font-family: 'Zilla Slab';
-}
-
 .font-body {
   font-family: 'Red Hat Mono';
+}
+
+.font-header {
+  font-family: 'Zilla Slab';
 }
 
 .text-6xl {
@@ -776,12 +744,22 @@ html {
   line-height: 2.5rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-thin {
   font-weight: 100;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .italic {
@@ -793,29 +771,14 @@ html {
   color: hsl(var(--bc) / var(--tw-text-opacity));
 }
 
-.text-primary {
+.text-secondary {
   --tw-text-opacity: 1;
-  color: hsl(var(--p) / var(--tw-text-opacity));
+  color: hsl(var(--s) / var(--tw-text-opacity));
 }
 
-.text-primary-content {
+.text-accent {
   --tw-text-opacity: 1;
-  color: hsl(var(--pc) / var(--tw-text-opacity));
-}
-
-.text-neutral-content {
-  --tw-text-opacity: 1;
-  color: hsl(var(--nc) / var(--tw-text-opacity));
-}
-
-.text-base-300 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--b3, var(--b2)) / var(--tw-text-opacity));
-}
-
-.text-base-100 {
-  --tw-text-opacity: 1;
-  color: hsl(var(--b1) / var(--tw-text-opacity));
+  color: hsl(var(--a) / var(--tw-text-opacity));
 }
 
 .underline {

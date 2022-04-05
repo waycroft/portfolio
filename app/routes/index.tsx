@@ -21,17 +21,15 @@ export default function Index() {
               Cicero.ly.
             </a>
           </p>
-          <p className="text-4xl">
-            {" "}
-            Phasellus vehicula velit ac est consectetur, vitae aliquet neque
-            commodo. Nullam eu lacus dictum lectus fermentum ultrices quis in
-            erat. Aliquam ac dolor nec nunc pretium pretium sit amet ac sem.
-            Fusce scelerisque metus non vehicula finibus. Ut auctor congue
-            lectus, id dictum turpis cursus quis. Nunc sed lobortis lacus, sit
-            amet vestibulum ipsum. Vestibulum cursus tortor non porttitor
-            mollis. Nullam tincidunt dolor eu fringilla gravida. Curabitur ac
-            pulvinar nunc. Quisque quis sagittis arcu. Maecenas pulvinar
-            accumsan dui ac euismod. Ut malesuada dignissim elementum.{" "}
+          <p className="text-3xl">
+            I'm a software developer who's had a lifelong passion for tools, for
+            the people who make them, and thinking how we might build them such
+            that it
+            <span className="text-accent font-bold italic">
+              {" "}
+              makes making
+            </span>{" "}
+            a humane society easier for everybody.
           </p>
           <p>
             {" "}
