@@ -1,5 +1,6 @@
 node_modules
 
+.history
 /.cache
 /build
 /public/build
