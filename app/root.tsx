@@ -5,9 +5,9 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "remix";
+} from "@remix-run/react";
 import styles from "./styles/app.css";
-import type { MetaFunction, LinksFunction } from "remix";
+import type { MetaFunction, LinksFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
